@@ -89,5 +89,15 @@ public class TV {
 			canal--;
 		}
 	}
+	
+	public void setControl(Control control){
+		this.control = control;
+	}
+	
+	public Control getControl(){
+		return control; 
+	}
+	
 }
+
 
