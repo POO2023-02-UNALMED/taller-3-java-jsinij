@@ -12,45 +12,34 @@ public class Control {
 	}
 	
 	public void setCanal(int Canal){
-		if (tv.estado == true && Canal >= 1 && Canal <= 120 ){
-			tv.canal = Canal; 
-		}
+		tv.setCanal(Canal);
 	}
 	
 	public void setVolumen(int Volumen){
-		if (tv.estado == true && Volumen >= 0 && Volumen <= 7 ){
-			tv.volumen = Volumen; 
-		}
+		tv.setVolumen(Volumen);
 	}
 	
 	public void turnOn(){
-		tv.estado = true;		
+		tv.turnOn();		
 	}
 	
 	public void turnOff(){
-		tv.estado = false; 
+		tv.turnOff(); 
 	}
 	
 	public void canalDown(){
-		if (tv.estado == true && 1 <= tv.canal && tv.canal <= 120){
-	        tv.canal--;
-			}
+		tv.canalDown();
 	}
 	
 	public void canalUp(){
-		if (tv.estado == true && 1 <= tv.canal && tv.canal <= 120){
-        	tv.canal++;
-		}
+		tv.canalUp();
 	}
+	
 	public void volumenDow(){
-		if (tv.estado == true && 0 <= tv.volumen && tv.volumen <= 7){
-            	tv.volumen--;
-        }
+		tv.volumenDow();
 	}
 	public void volumenUp(){
-		if (tv.estado == true && 0 <= tv.volumen && tv.volumen <= 7){
-            	tv.volumen--;
-        }
+		tv.volumenUp();
 	}
 	
 	public void enlazar(TV tv){
