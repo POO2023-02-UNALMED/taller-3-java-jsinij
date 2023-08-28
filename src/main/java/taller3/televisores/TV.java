@@ -47,11 +47,11 @@ public class TV {
 		return precio;
 	}
 	
-	public int getNumTv(){
+	public int getNumTV(){
 	    return numTv;
 	}
 
-	public void setNumTv(int numTv) {
+	public void setNumTV(int numTv) {
 	        TV.numTv = numTv;
 	    }
 	
@@ -77,7 +77,7 @@ public class TV {
 	        }
 	}
 	
-	public void volumenDow(){
+	public void volumenDown(){
 		if (estado == true && 0 <= volumen && volumen <= 7){
             	volumen--;
         }

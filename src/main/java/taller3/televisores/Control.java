@@ -35,8 +35,8 @@ public class Control {
 		tv.canalUp();
 	}
 	
-	public void volumenDow(){
-		tv.volumenDow();
+	public void volumenDown(){
+		tv.volumenDown();
 	}
 	public void volumenUp(){
 		tv.volumenUp();
