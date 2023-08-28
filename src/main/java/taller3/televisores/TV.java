@@ -32,6 +32,7 @@ public class TV {
 		if (estado == true && volumen >= 0 && volumen <= 7 ){
 			this.volumen = volumen;
 		}
+		else {return;}
 	}
 	
 	public Marca getMarca(){
@@ -74,12 +75,14 @@ public class TV {
 		if (estado == true && volumen >= 0 && volumen <= 7){
 	            volumen++;
 	        }
+		else {return;}
 	}
 	
 	public void volumenDown(){
 		if (estado == true && volumen >= 0 && volumen <= 7){
             	volumen--;
-        }
+		}
+        else {return;}
 	}
 	
 	public void canalUp(){
