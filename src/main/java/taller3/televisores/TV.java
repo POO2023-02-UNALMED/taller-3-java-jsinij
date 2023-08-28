@@ -6,8 +6,8 @@ public class TV {
 	private int precio = 500;
 	private boolean estado; 
 	private int volumen = 1; 
-	Control control;
-	private static int numTv = 0; 
+	private Control control;
+	private static int numTv; 
 	
 	public TV(Marca marca, Boolean estado){
 		this.marca = marca;
@@ -48,7 +48,7 @@ public class TV {
 	}
 	
 	public int getNumTv(){
-	        return numTv;
+	    return numTv;
 	}
 
 	public void setNumTv(int numTv) {
