@@ -47,13 +47,13 @@ public class TV {
 		return precio;
 	}
 	
-	public int getNumTv(){
+	static public int getNumTv(){
 	    return numTV;
 	}
 
-	public void setNumTv(int numTV) {
+	static public void setNumTv(int numTV) {
 	        TV.numTV = numTV;
-	    }
+	}
 	
 	public void turnOn(){
 		estado = true;
