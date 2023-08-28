@@ -45,11 +45,11 @@ public class TV {
 		return precio;
 	}
 	
-	static public int getNumTv(){
-	    return numTV;
+	public static int getNumTv(){
+	    return TV.numTV;
 	}
 
-	static public void setNumTv(int numTV) {
+	public static void setNumTv(int numTV) {
 	        TV.numTV = numTV;
 	}
 	
