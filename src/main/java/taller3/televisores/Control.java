@@ -12,34 +12,34 @@ public class Control {
 	}
 	
 	public void setCanal(int Canal){
-		tv.setCanal(Canal);
+		this.tv.setCanal(Canal);
 	}
 	
 	public void setVolumen(int Volumen){
-		tv.setVolumen(Volumen);
+		this.tv.setVolumen(Volumen);
 	}
 	
 	public void turnOn(){
-		tv.turnOn();		
+		this.tv.turnOn();		
 	}
 	
 	public void turnOff(){
-		tv.turnOff(); 
+		this.tv.turnOff(); 
 	}
 	
 	public void canalDown(){
-		tv.canalDown();
+		this.tv.canalDown();
 	}
 	
 	public void canalUp(){
-		tv.canalUp();
+		this.tv.canalUp();
 	}
 	
 	public void volumenDown(){
-		tv.volumenDown();
+		this.tv.volumenDown();
 	}
 	public void volumenUp(){
-		tv.volumenUp();
+		this.tv.volumenUp();
 	}
 	
 	public void enlazar(TV tv){
