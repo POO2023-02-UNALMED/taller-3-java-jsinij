@@ -66,6 +66,11 @@ public class TV {
 		return estado;
 	}
 	
+	public int getVolumen(){
+		return volumen;
+	}
+	
+	
 	public void volumenUp() {
 		if (estado == true && 0 <= volumen && volumen <= 7){
 	            volumen++;
